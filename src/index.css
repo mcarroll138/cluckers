@@ -14,6 +14,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+img {
+    width: 90%;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,11 +29,13 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  margin: 5;
   display: flex;
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 h1 {

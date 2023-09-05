@@ -21,3 +21,9 @@ Chicken.propTypes = {
 };
 
 export default Chicken;
+
+//Add once functionality is up and working:
+{/* <p>{props.names}</p>
+<p>{props.cluck}</p>
+<p>{props.following}</p>
+<p>{props.followers}</p> */}
