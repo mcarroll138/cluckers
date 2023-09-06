@@ -13,7 +13,7 @@ const chickenList = [
 function ChickenList(){
     return (
         <React.Fragment>
-            <hr/>
+            {/* <hr/> */}
             {chickenList.map((chicken, index) =>
             <Chicken names={chicken.names}
             key={index}/>

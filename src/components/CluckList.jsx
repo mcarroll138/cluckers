@@ -16,9 +16,6 @@ const cluckPost = [
 function CluckPost() {
     return (
         <React.Fragment>
-            <textarea />
-            <br />
-            <button>Cluck It!</button>
             <hr />
             {cluckPost.map((chicken, index) =>
                 <Chicken names={chicken.names}

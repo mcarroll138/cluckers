@@ -9,10 +9,10 @@ function ChickenProfile() {
     return (
         <React.Fragment style={myStyledComponentStyles}>
             <img src={henny} />
-            <h2><em>Sally B Mild</em></h2>
-            <p>Respect thy peck...</p>
-            <th>Following: 143 |</th>
-            <th>Followers: 1.3k</th>
+            <h1><em>Sally B Mild</em></h1>
+            
+            <th>&#128020; Following: 143 |</th>
+            <th>Followers: 1.3k&#128020;</th>
         </React.Fragment >
     );
 }
