@@ -4,16 +4,17 @@ function ChickenProfile() {
     const myStyledComponentStyles = {
         backgroundColor: '#ecf0f1',
         fontFamily: 'sans-serif',
-        paddingTop: '150px',
+        paddingTop: '50px',
+        resizeBy: "25%"
     }
     return (
-        <React.Fragment style={myStyledComponentStyles}>
+        <div style={myStyledComponentStyles}>
             <img src={henny} />
             <h1><em>Sally B Mild</em></h1>
             
             <th>&#128020; Following: 143 |</th>
             <th>Followers: 1.3k&#128020;</th>
-        </React.Fragment >
+        </div >
     );
 }
 
